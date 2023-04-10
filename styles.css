@@ -1,0 +1,151 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+
+}
+
+.box-roxo {
+    background: var(--purple-bg);
+    width: 100%;
+    padding: 50px 100px;
+    border-bottom: 5px solid var(--green);   
+}
+
+.box-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-menu {
+    color: #fff;
+}
+
+.box-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.box-menu ul li {
+    padding: 0px 2px;
+    margin-right: 25px;
+    
+}
+
+.box-menu ul li.active {
+    border-left: 2px solid #4fff4b;
+    font-weight: bold;
+}
+
+.box-busca {
+    display: flex;
+}
+
+.box-busca input {
+    background: var(--dark-bg);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.box-busca button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--button-bg);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 0 3px 3px 0;
+}
+
+.box-busca button img {
+    width: 16px;
+    height: 16px;
+}
+
+.box-roxo .box-conteudo{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-texto {
+    width: 45%;
+    padding-right: 60px;
+    color:#9e6dc2;
+    
+}
+
+.box-texto p {
+    color:#fff;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 20px;
+
+}
+
+.box-texto h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 42px;
+}
+
+
+
+.box-imagem {
+    width: 50%;
+}
+
+.box-imagem img {
+    width: 100%;
+}
+
+.box-branco {
+    padding: 50px 100px;
+}
+
+.box-branco .box-conteudo {
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    width: 100%;    
+    display: flex;
+    gap: 20px;
+}
+
+.linha-maior {
+    gap: 100px;
+}
+
+.coluna {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.coluna strong {
+    color: var(--purple-bg);
+    font-size: 22px ;
+}
+
+.coluna p {
+    font-size: 14px;
+}

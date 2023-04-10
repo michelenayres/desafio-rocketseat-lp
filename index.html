@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desafio Blog HTML + CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+  </style>
 </head>
+
 <body>
-  
+  <div class="box-roxo">
+    <div class="box-header">
+      <div class="box-logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="box-menu">
+        <ul>
+          <li class="active">Home</li>
+          <li>Sobre</li>
+          <li>Categoria</li>
+          <li>Contato</li>
+        </ul>
+      </div>
+      <div class="box-busca">
+        <input type="text" placeholder="Buscar" />
+        <button>
+          <img src="images/search.svg" alt="search">
+        </button>
+      </div>
+    </div>
+    <div class="box-conteudo">
+      <div class=" box-texto">
+        <h1>
+          Veja o guia definitivo para <br> conquistar seus objetivos <br> como DEV em 2022
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, repellendus iste suscipit consequuntur
+          sit nihil cumque fugiat perspiciatis cupiditate ratione quasi provident, quibusdam nesciunt officia autem id
+          deleniti sequi error.
+        </p>
+      </div>
+      <div class=" box-imagem">
+        <img src="./images/featured-image.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="box-branco">
+    <div class="box-conteudo">
+      <div class="linha linha-maior">
+        <div class="coluna">
+          <img src="./images/post-1.png" alt="">
+          <small>Janeiro 04, 2022</small>
+          <strong>Começando no ReactJS 2022</strong>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+            saepe consectetur voluptatibus illum corrupti deleniti voluptas fuga adipisci modi quam culpa est inventore,
+            laboriosam mollitia!
+          </p>
+        </div>
+
+        <div class="coluna">
+          <div class="linha">
+            <div class="coluna"><small>Janeiro 04, 2022</small>
+              <strong>Conheça as principais técnicas para conseguir uma vaga internacional em programação</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+                saepe consectetur voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="linha">
+            <div class="coluna">
+              <small>Janeirnheçao 04, 2022</small>
+              <strong>Veja a evolução do Front-end na prática</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+          
+              </p></div>
+          </div>
+        </div>
+      </div>
+      <div class="linha">
+        <div class="coluna"><img width="100%" src="./images/post-1.png" alt="">
+          <small>Janeiro 04, 2022</small>
+          <strong>Começando no ReactJS 2022</strong>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+            saepe consectetur voluptatibus illum corrupti deleniti voluptas fuga adipisci modi quam culpa est inventore,
+            laboriosam mollitia!
+          </p></div>
+        <div class="coluna"><img width="100%" src="./images/post-1.png" alt="">
+          <small>Janeiro 04, 2022</small>
+          <strong>Começando no ReactJS 2022</strong>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+            saepe consectetur voluptatibus illum corrupti deleniti voluptas fuga adipisci modi quam culpa est inventore,
+            laboriosam mollitia!
+          </p></div>
+        <div class="coluna"><img width="100%" src="./images/post-1.png" alt="">
+          <small>Janeiro 04, 2022</small>
+          <strong>Começando no ReactJS 2022</strong>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt cumque, optio impedit accusamus
+            saepe consectetur voluptatibus illum corrupti deleniti voluptas fuga adipisci modi quam culpa est inventore,
+            laboriosam mollitia!
+          </p></div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
